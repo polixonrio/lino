@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="themes/prism.css" rel="stylesheet" /> -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="themes/prism.css" rel="stylesheet" />
+
+  </head>
+
+
+  <body style="background-color: #ffffff;
+  background-image: linear-gradient(43deg, #ffffff 0%, #f5c6ff 46%, #f7f1e7 100%);
+  
+  ">
+
+
+  
+    <nav
+      class="navbar   sticky-top navbar-expand-md navbar-light bg-light py-0 px-sm-5" 
+      style="background-color: #ffffff;
+      background-image: linear-gradient(43deg, #ffffff 0%, #f5c6ff 46%, #f7f1e7 100%);
+      
+      " >
+      <div class="container    sticky-top">
+        <a class="navbar-brand" href="mindex.html">
+          <img
+            src="astx.png"
+            alt=""
+            width="200"
+            height="75"
+            class="img-fluid d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarButtonsExample"
+          aria-controls="navbarButtonsExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarButtonsExample"
+        >
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item">
+              <a
+  class="hink fs-5 nav-link btn-hover color-8 mt-1 fade-on-hover"
+  aria-current="page"
+  href="mindex.html"
+  ><p class="mb-0">Home</p></a
+>
+
+            </li>
+            <li class="nav-item">
+              <a
+                class="hink fs-5 nav-link btn-hover color-8 mx-2 mt-1"
+                aria-current="page"
+                href="#"
+                >Contact Us</a
+              >
+            </li>
+
+            <li class="nav-item mt-1 fs-5">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <!-- Dropdown menu -->
+              <div style="position: relative">
+                <ul
+                  class="lin fs-5 dropdown-menu nav-item justify-content-center text-center"
+                  aria-labelledby="navbarDropdown"
+                  data-popper-placement="bottom-start"
+                >
+                  <li>
+                    <a class="dropdown-item" href="mink.html"
+                      ><p class="mb-0">Java Projects</p></a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><p class="mb-0">ASP.NET Projects</p></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <div class="container mt-4 ">
+      <div class="container my-2 py-2">
+      <div class="h1 ">Search Medicine project in Java using JSP, Servlet, JDBC and MYSQL
+      </div></div>
+      <div class="container my-2 py-2">
+          Online Search medicine project in java with source code and project report. Search medicine projects in java using JSP, Servlet, JDBC, MYSQL, Tomcat, and maven. it is a web application running on a browser and deployed over the tomcat server.
+      
+      This is a J2ee, Maven project, and following MVC architecture, So According to the MVC. The View part is developed in HTML, CSS, and Bootstrap. The Controller part is developed into Servlet. The model and business logics develop into Java and JDBC.
+      
+      It’s a web application running deployed over the tomcat server at localhost.
+      
+      
+      </div>
+      <div class="container my-2 py-2">
+        <ul>
+          <li><a href="#rocket-diesel"> Intro to Rocket and Diesel</a></li>
+          <li><a href="#setting-up-rocket-diesel"> Setting up Rocket and Diesel</a>
+          <ul style="margin-bottom: 0px; padding-bottom: 0px;">
+          <li><a href="#diesel-cli"> Installing the Diesel CLI</a></li>
+          <li><a href="#running-migration"> Running the migration</a></li>
+          </ul>
+          </li>
+          <li><a href="#building-rocket-model"> Building the Rocket model</a>
+          <ul style="margin-bottom: 0px; padding-bottom: 0px;">
+          <li><a href="#connecting-database"> Connecting to the database</a></li>
+          </ul>
+          </li>
+          <li><a href="#creating-post"> Creating a post</a></li>
+          <li><a href="#viewing-posts"> How to view posts</a></li>
+          <li><a href="#testing-postman-web-browser"> Testing with Postman and the web browser</a></li>
+          </ul>
+      <div class="h1 ">Search Medicine project in Java</div></div>
+      <ul><li>Admin can ADD/Edit/Delete/Update/View Users.</li><li>Admin can Add new Medicine into the database.</li><li>Admin will update the quantity of the medicine.</li><li>Admin can manage the medicine booking history.</li></ul>
+      <ul><li>Users can view the list of available medicine.</li><li>Users can search for the required medicine by the name of the medicine.</li><li>Users can book the medicine.</li><li>Users can manage the booking history.</li></ul>
+      <div class="container my-2 py-2"><div class="h1 ">Tools and Technologies Used</div></div>
+      <span id="ezoic-pub-video-placeholder-6" class="ezoic-videopicker-video"></span><strong>Technology/Domain:</strong>&nbsp;Java<br><strong>Front-End:</strong>&nbsp;JSP, Html, CSS, JS, Bootstrap.<br><strong>Server-side:</strong>&nbsp;Servlet.<br><strong>Back-end:</strong>&nbsp;MYSQL.<br><strong>Server:</strong>&nbsp;Tomcat 8.5.</p>
+      <p><span id="ezoic-pub-video-placeholder-6" class="ezoic-videopicker-video"></span><strong>Technology/Domain:</strong>&nbsp;Java<br><strong>Front-End:</strong>&nbsp;JSP, Html, CSS, JS, Bootstrap.<br><strong>Server-side:</strong>&nbsp;Servlet.<br><strong>Back-end:</strong>&nbsp;MYSQL.<br><strong>Server:</strong>&nbsp;Tomcat 8.5.</p>
+      <h2>Search Medicine project Source code in Java</h2>
+      <p>Here, I am sharing a folder structure of the project and source code for the medicine module. As the application is using MVC architecture so we divide each module of the project into 3 parts Model View and Controller.</p>
+      <h4>Folder and Package Structure</h4>
+      <p><img loading="lazy" class="img-fluid" src="https://codebun.com/wp-content/uploads/2022/10/Search-Medicine-Folder-Structure.png?ezimgfmt=rs:356x576/rscb5/ng:webp/ngcb5" alt="" width="356" height="576" data-ezsrcset="https://codebun.com/wp-content/uploads/2022/10/Search-Medicine-Folder-Structure.png?ezimgfmt=ng:webp/ngcb5 356w,https://codebun.com/wp-content/uploads/2022/10/Search-Medicine-Folder-Structure-185x300.png?ezimgfmt=ng:webp/ngcb5 185w" sizes="(max-width: 356px) 100vw, 356px" ezimgfmt="rs rscb5 src ng ngcb5 srcset" data-ezsrc="https://codebun.com/wp-content/uploads/2022/10/Search-Medicine-Folder-Structure.png?ezimgfmt=rs:356x576/rscb5/ng:webp/ngcb5" ezoid="0.34629466451785973" srcset="https://codebun.com/wp-content/uploads/2022/10/Search-Medicine-Folder-Structure.png?ezimgfmt=ng:webp/ngcb5 356w,https://codebun.com/wp-content/uploads/2022/10/Search-Medicine-Folder-Structure-185x300.png?ezimgfmt=ng:webp/ngcb5 185w"><p>Here, I am sharing a folder structure of the project and source code for the medicine module. As the application is using MVC architecture so we divide each module of the project into 3 parts Model View and Controller.</p></p>
+      <p><strong>Add medicine From(addmedicine.jsp)</strong></p>
+      <script src="https://gist.github.com/polixonrio/fa91731c725dd7cdeea644379c87afd3.js"></script>
+          </div>
+      
+          
+      
+      
+      
+      
+          <!-- Footer -->
+          <div class="container">
+            <footer class="text-center text-lg-start bg-white text-muted">
+              <!-- Section: Social media -->
+              <section
+                class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+              >
+                <!-- Left -->
+                <div class="me-5 d-none d-lg-block">
+                  <span>Get connected with us on social networks:</span>
+                </div>
+                <!-- Left -->
+      
+                <!-- Right -->
+                <div>
+                  <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-google"></i>
+                  </a>
+                  <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+                <!-- Right -->
+              </section>
+              <!-- Section: Social media -->
+      
+              <!-- Section: Links  -->
+              <section class="">
+                <div class="container text-center text-md-start mt-5">
+                  <!-- Grid row -->
+                  <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                      <!-- Content -->
+                      <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3 text-secondary"></i>Company name
+                      </h6>
+                      <p>
+                        Here you can use rows and columns to organize your footer
+                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+      
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                      <p>
+                        <a href="#!" class="text-reset">Angular</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">React</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Vue</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Laravel</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+      
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                      <p>
+                        <a href="#!" class="text-reset">Pricing</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Settings</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Orders</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Help</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+      
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                      <!-- Links -->
+                      <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                      <p>
+                        <i class="fas fa-home me-3 text-secondary"></i> New York, NY
+                        10012, US
+                      </p>
+                      <p>
+                        <i class="fas fa-envelope me-3 text-secondary"></i>
+                        info@example.com
+                      </p>
+                      <p>
+                        <i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567
+                        88
+                      </p>
+                      <p>
+                        <i class="fas fa-print me-3 text-secondary"></i> + 01 234 567
+                        89
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+                  </div>
+                  <!-- Grid row -->
+                </div>
+              </section>
+              <!-- Section: Links  -->
+      
+              <!-- Copyright -->
+              <div
+                class="text-center p-4"
+                style="background-color: rgba(0, 0, 0, 0.025)"
+              >
+                Copyright © 2021 Asterisc.in Developed by
+                <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+                  >Asterisc Technocrat Pvt. Ltd.</a
+                >
+              </div>
+              <!-- Copyright -->
+            </footer>
+          </div>
+          <!-- Footer -->
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
+    ></script>
+
+  </body>
+
+
+</html>
